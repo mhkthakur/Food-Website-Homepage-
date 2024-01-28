@@ -1,0 +1,508 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Row 1 CSS start */
+
+#row1 {
+    height: 70px;
+    width: 100%;
+    background-color: beige;
+}
+
+.header-section {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    height: 70px;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+.menu {
+    width: 75%;
+    float: left;
+}
+
+.menu ul {
+    margin-left: 160px;
+}
+
+.menu ul li {
+    float: left;
+    line-height: 70px;
+    text-align: right;
+    width: 98px;
+    text-align: center;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #455964;
+    font-size: 15px;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
+
+.menu ul li i {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #455964;
+    border-radius: 100%;
+    line-height: 30px;
+}
+
+.menu ul li i:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Row 1 CSS is completed */
+
+/* Row 2 CSS is start */
+
+#row2 {
+    height: 500px;
+    width: 100%;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-bread-minimalist-literary-white-food-poster-background-picture-image_1121500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+
+.overlay-row2 {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    position: absolute;
+}
+
+.banner-section {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-content h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 10px;
+}
+
+.banner-content p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 190px;
+}
+
+
+.banner-button button {
+    padding: 10px 20px;
+    background: none;
+    color: #fff;
+    border: 2px groove #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.banner-button button:hover {
+    background-color: #000;
+    transition: 0.5s;
+}
+
+/* Row 2 CSS is completed */
+
+/* Row 3 CSS start */
+
+#row3 {
+    height: 80px;
+    width: 100%;
+    background-color: beige;
+}
+
+.form-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-part {
+    width: 20%;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.text-part h1 {
+    color: black;
+}
+
+.text-part h4 {
+    line-height: 30px;
+    color: lightslategray;
+}
+
+.form-part {
+    padding: 20px;
+}
+
+.form-part form {
+    width: 80%;
+    float: left;
+}
+
+.input-item {
+    float: left;
+    padding-top: 10px;
+}
+
+.input-item ul li {
+    float: left;
+    line-height: 30px;
+    text-align: right;
+    width: 98px;
+    text-align: center;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.input-item ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+}
+
+.form-part button {
+    padding: 5px;
+    margin-top: 11px;
+    margin-left: 60px;
+}
+
+/* Row 3 CSS is complete */
+
+/* Row 4 CSS start */
+
+#row4 {
+    height: 650px;
+    width: 100%;
+    background: #fff;
+}
+
+.offer-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.offer-top {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.offer-item {
+    width: 230px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 4px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    padding: 5px;
+    transition: .5s;
+}
+
+.offer-item:hover {
+    transform: scale(1.1);
+}
+
+.offer-item img {
+    width: 100%;
+    height: 150px;
+}
+
+.offer-text {
+    width: 80%;
+    float: left;
+}
+
+.offer-icon {
+    width: 10%;
+    float: right;
+}
+
+/* Row 4 CSS is complete */
+
+/* Row-5 CSS Start */
+#row5 {
+    height: 600px;
+    width: 100%;
+    background: url(https://static.vecteezy.com/system/resources/previews/017/729/460/large_2x/ketogenic-low-carbs-diet-concept-ingredients-for-the-healthy-foods-selection-on-white-background-balanced-healthy-foods-ingredients-of-unsaturated-fats-and-fiber-for-the-heart-and-blood-vessels-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+
+.overlay-5 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, .3);
+}
+
+.holidays_section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.holi_top {
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+    position: absolute;
+    left: 45%;
+}
+
+.holi_top h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.holi_top p{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+
+/* Row-5 CSS End */
+
+/* Row-6 CSS Start */
+
+#row6 {
+    height: 400px;
+    width: 100%;
+    background: #fff;
+}
+
+.happy_section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.happy_top {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.happy_top h1 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.happy_bottom {
+    padding-bottom: 40px;
+}
+
+.happy_item {
+    width: 29%;
+    float: left;
+    margin-left: 15px;
+    border: 5px solid beige;
+    padding: 10px;
+    transition: .2s;
+}
+
+.happy_item:hover {
+    border-top: 8px solid #333;
+}
+
+.happy_item p {
+    text-align: justify;
+}
+
+.happy_item h4 {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Row-6 CSS End */
+
+/* Row 7 CSS start */
+
+#row7 {
+    height: 450px;
+    width: 100%;
+    background-color: beige;
+}
+
+.footer_section {
+    width: 90%;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.footer_top {
+    padding: 40px 0px;
+    border-bottom: 2px solid grey;
+    height: 220px;
+}
+
+.footer_top_item {
+    width: 22%;
+    float: left;
+    color: #fff;
+}
+
+.footer_top_item h2 {
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.footer_top_item p {
+    color: #333;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 228px;
+}
+
+.footer_top_item input[type="email"] {
+    padding: 5px;
+}
+
+.footer_top_item button {
+    padding: 7px 10px;
+    background: grey;
+    border: none;
+}
+
+.news_item_right {
+    width: 70%;
+    float: left;
+}
+
+.news_item_right h4 {
+    margin-top: -6px;
+    color: #333;
+}
+
+.news_item_right p {
+    color: grey;
+    font-weight: 600;
+}
+
+.footer_top_item ul {}
+
+.footer_top_item ul li {
+    list-style: none;
+    border: 2px solid #000;
+    float: left;
+    margin: 5px;
+    padding: 3px;
+}
+
+.footer_top_item ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.footer_top_item ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.footer_top_item h4 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+}
+
+.footer_top_item h5 {
+    color: #333;
+}
+
+.footer_icon a {
+    color: #fff;
+}
+
+.footer_icon a:hover {
+    color: #000;
+}
+
+.footer_icon i {
+    margin-left: 18px;
+}
+
+.footer_bottom {}
+
+.footer_menu {
+    height: 25px;
+    color: white;
+}
+
+.footer_menu ul {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.footer_menu ul li {
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.footer_menu ul li a {
+    color: black;
+}
+
+.footer_menu ul li a:hover {
+    color: #fff;
+}
+
+.copy_right {}
+
+.copy_right p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* Row 7 CSS end */
